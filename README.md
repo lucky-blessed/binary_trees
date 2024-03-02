@@ -97,3 +97,64 @@ Where parent is a pointer to the node to insert the right-child in
 And value is the value to store in the new node
 Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
 If parent already has a right-child, the new node must take its place, and the old right-child must be set as the right-child of the new node.
+
+Repo:
+
+GitHub repository: binary_trees
+File: 2-binary_tree_insert_right.c
+     
+3. Delete
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that deletes an entire binary tree
+
+Prototype: void binary_tree_delete(binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to delete
+If tree is NULL, do nothing
+
+Repo:
+
+GitHub repository: binary_trees
+File: 3-binary_tree_delete.c
+     
+4. Is leaf
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that checks if a node is a leaf
+
+Prototype: int binary_tree_is_leaf(const binary_tree_t *node);
+Where node is a pointer to the node to check
+Your function must return 1 if node is a leaf, otherwise 0
+If node is NULL, return 0
+
+Repo:
+
+GitHub repository: binary_trees
+File: 4-binary_tree_is_leaf.c
+     
+5. Is root
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that checks if a given node is a root
+
+Prototype: int binary_tree_is_root(const binary_tree_t *node);
+Where node is a pointer to the node to check
+Your function must return 1 if node is a root, otherwise 0
+If node is NULL, return 0
+
+Repo:
+
+GitHub repository: binary_trees
+File: 5-binary_tree_is_root.c
+     
+6. Pre-order traversal
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that goes through a binary tree using pre-order traversal
+
+Prototype: void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
+Where tree is a pointer to the root node of the tree to traverse
+And func is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.
+If tree or func is NULL, do nothing
+
+
