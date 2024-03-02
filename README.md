@@ -157,4 +157,223 @@ Where tree is a pointer to the root node of the tree to traverse
 And func is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.
 If tree or func is NULL, do nothing
 
+Repo:
 
+GitHub repository: binary_trees
+File: 6-binary_tree_preorder.c
+     
+7. In-order traversal
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that goes through a binary tree using in-order traversal
+
+Prototype: void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+Where tree is a pointer to the root node of the tree to traverse
+And func is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.
+If tree or func is NULL, do nothing
+
+Repo:
+
+GitHub repository: binary_trees
+File: 7-binary_tree_inorder.c
+     
+8. Post-order traversal
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that goes through a binary tree using post-order traversal
+
+Prototype: void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+Where tree is a pointer to the root node of the tree to traverse
+And func is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.
+If tree or func is NULL, do nothing
+
+Repo:
+
+GitHub repository: binary_trees
+File: 8-binary_tree_postorder.c
+     
+9. Height
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that measures the height of a binary tree
+
+Prototype: size_t binary_tree_height(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to measure the height.
+If tree is NULL, your function must return 0
+
+Repo:
+
+GitHub repository: binary_trees
+File: 9-binary_tree_height.c
+     
+10. Depth
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that measures the depth of a node in a binary tree
+
+Prototype: size_t binary_tree_depth(const binary_tree_t *tree);
+Where tree is a pointer to the node to measure the depth
+If tree is NULL, your function must return 0
+
+Repo:
+
+GitHub repository: binary_trees
+File: 10-binary_tree_depth.c
+     
+11. Size
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that measures the size of a binary tree
+
+Prototype: size_t binary_tree_size(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to measure the size
+If tree is NULL, the function must return 0
+
+Repo:
+
+GitHub repository: binary_trees
+File: 11-binary_tree_size.c
+     
+12. Leaves
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that counts the leaves in a binary tree
+
+Prototype: size_t binary_tree_leaves(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to count the number of leaves
+If tree is NULL, the function must return 0
+A NULL pointer is not a leaf
+
+Repo:
+
+GitHub repository: binary_trees
+File: 12-binary_tree_leaves.c
+     
+13. Nodes
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that counts the nodes with at least 1 child in a binary tree
+
+Prototype: size_t binary_tree_nodes(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to count the number of nodes
+If tree is NULL, the function must return 0
+A NULL pointer is not a node
+
+Repo:
+
+GitHub repository: binary_trees
+File: 13-binary_tree_nodes.c
+     
+14. Balance factor
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that measures the balance factor of a binary tree
+
+Prototype: int binary_tree_balance(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to measure the balance factor
+If tree is NULL, return 0
+
+Repo:
+
+GitHub repository: binary_trees
+File: 14-binary_tree_balance.c
+     
+15. Is full
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that checks if a binary tree is full
+
+Prototype: int binary_tree_is_full(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to check
+If tree is NULL, your function must return 0
+
+Repo:
+
+GitHub repository: binary_trees
+File: 15-binary_tree_is_full.c
+     
+16. Is perfect
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that checks if a binary tree is perfect
+
+Prototype: int binary_tree_is_perfect(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to check
+If tree is NULL, your function must return 0
+
+Repo:
+
+GitHub repository: binary_trees
+File: 16-binary_tree_is_perfect.c
+     
+17. Sibling
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that finds the sibling of a node
+
+Prototype: binary_tree_t *binary_tree_sibling(binary_tree_t *node);
+Where node is a pointer to the node to find the sibling
+Your function must return a pointer to the sibling node
+If node is NULL or the parent is NULL, return NULL
+If node has no sibling, return NULL
+
+Repo:
+
+GitHub repository: binary_trees
+File: 17-binary_tree_sibling.c
+     
+18. Uncle
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that finds the uncle of a node
+
+Prototype: binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+Where node is a pointer to the node to find the uncle
+Your function must return a pointer to the uncle node
+If node is NULL, return NULL
+If node has no uncle, return NULL
+
+Repo:
+
+GitHub repository: binary_trees
+File: 18-binary_tree_uncle.c
+     
+19. Lowest common ancestor
+#advanced
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that finds the lowest common ancestor of two nodes
+
+Prototype: binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+Where first is a pointer to the first node
+And second is a pointer to the second node
+Your function must return a pointer to the lowest common ancestor node of the two given nodes
+If no common ancestor was found, your function must return NULL
+
+Repo:
+
+GitHub repository: binary_trees
+File: 100-binary_trees_ancestor.c
+     
+20. Level-order traversal
+#advanced
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that goes through a binary tree using level-order traversal
+
+Prototype: void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
+Where tree is a pointer to the root node of the tree to traverse
+And func is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.
+If tree or func is NULL, do nothing
+
+Repo:
+
+GitHub repository: binary_trees
+File: 101-binary_tree_levelorder.c
+     
+21. Is complete
+#advanced
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that checks if a binary tree is complete
+
+Prototype: int binary_tree_is_complete(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to check
+If tree is NULL, your function must return 0
