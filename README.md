@@ -374,13 +374,11 @@ Where tree is a pointer to the root node of the tree to rotate
 Your function must return a pointer to the new root node of the tree once rotated
 
 Repo:
-
 GitHub repository: binary_trees
 File: 104-binary_tree_rotate_right.c
      
 24. Is BST
 #advanced
-Score: 0.0% (Checks completed: 0.0%)
 Write a function that checks if a binary tree is a valid Binary Search Tree
 
 Prototype: int binary_tree_is_bst(const binary_tree_t *tree);
